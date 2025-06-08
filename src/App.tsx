@@ -24,10 +24,11 @@ const queryClient = new QueryClient({
 
 const defaultConfig: AppConfig = {
   theme: "light",
-  relayUrl: "wss://relay.nostr.band",
+  relayUrl: "wss://groups.0xchat.com",
 };
 
 const presetRelays = [
+  { url: 'wss://groups.0xchat.com', name: '0xChat Groups' },
   { url: 'wss://ditto.pub/relay', name: 'Ditto' },
   { url: 'wss://relay.nostr.band', name: 'Nostr.Band' },
   { url: 'wss://relay.damus.io', name: 'Damus' },

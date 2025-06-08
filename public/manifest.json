@@ -1,0 +1,10 @@
+{
+  "name": "Nostr Group Chat",
+  "short_name": "NostrChat",
+  "description": "Decentralized group chat on Nostr with lightning zaps",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#8b5cf6",
+  "icons": []
+}
